@@ -57,7 +57,7 @@ export default class signin extends React.Component{
     
     submit =() =>{
         if (this.validate()) {
-            console.log("Login failed");
+            console.log("Login  failed");
         }else {
         console.log("login successful",this.state.email,this.state.password);
         let userInput = {
