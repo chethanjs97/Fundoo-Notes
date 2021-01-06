@@ -1,0 +1,60 @@
+.mainContent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     width: 368px; 
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 48px 40px 36px 40px ;
+}
+
+.Logo1 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+  font-weight: bold;
+  }
+
+  .header{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+  }
+
+  .header1{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;   
+    padding-top: 8px;
+}
+  
+.child2{
+    display: flex;
+    flex-direction: column;
+     justify-content:center;
+     width: 368px;
+     padding-top: 10px;
+     
+}
+.footerContent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.forgotPassword{
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px){
+  .mainContent2{
+      border: none;
+      
+  }
+}
